@@ -1,5 +1,6 @@
-class Cat
-    pass
+class Cat:
+    def meow(self):
+        print("야옹")
 
 nabi = Cat()
-print(nabi)
+nabi.meow()
